@@ -1,10 +1,8 @@
-import { Request, Response, Router } from 'express'
+import { Router } from 'express'
+import { getCharacters } from '../controller/characters'
+
 const router = Router()
 
-router.get("/characters", (req: Request, res: Response) => {
-    res.send({
-        data: 'test data'
-    })
-})
+router.get("/characters", getCharacters)
 
 export { router }
