@@ -1,0 +1,35 @@
+{
+  "name": "backendexpres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliodacer/RickAndMortyBackendExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliodacer/RickAndMortyBackendExpress/issues"
+  },
+  "homepage": "https://github.com/juliodacer/RickAndMortyBackendExpress#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
